@@ -18,6 +18,8 @@ namespace Fleet_Tracking_Platform
     /// </summary>
     public partial class CreateAccount : UserControl
     {
+        private string x_Name = string.Empty;
+
         public CreateAccount()
         {
             InitializeComponent();
